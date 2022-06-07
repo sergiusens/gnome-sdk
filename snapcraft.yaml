@@ -184,6 +184,7 @@ parts:
   command-chain:
     source: https://github.com/snapcore/snapcraft-desktop-integration.git
     source-type: git
+    source-branch: bootstrap
     source-subdir: gnome
     plugin: make
     make-parameters:
